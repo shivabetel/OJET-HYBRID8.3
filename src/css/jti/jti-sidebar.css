@@ -1,0 +1,183 @@
+#navDrawer {
+    background: rgb(255, 255, 255);
+   
+    border-radius: 0px 40px 40px 0px;
+    z-index: 100;
+}
+.sidebar-container {
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar-container .profile-section {
+    /* background-image: linear-gradient(135deg, #EEF2F6 0%, #EAF0F7 100%); */
+    /* background: #EEF2F6; */
+    background: #F4F8FB;
+border-radius: 0 40px 40px 0;
+}
+
+.sidebar-container .user-main {
+    padding: 20px 10px 30px 25px;
+}
+
+.sidebar-container #profilePic {
+    display: inline-block;
+}
+
+.sidebar-container #profilePic >img {
+    width: 60px;
+    border-radius: 30px;
+    height: 60px;
+    border-radius: 30px;
+    /* border: 1px solid #FFFFFF; */
+    box-shadow: 0px 0px 5px 2px #FFFFFF;
+}
+
+.sidebar-container .user-grade {
+    opacity: 0.5;
+font-size: 14px;
+color: #023A4D;
+letter-spacing: 0;
+line-height: 16px;
+padding: 5px 0 10px 0;
+}
+.delete-cnfrm .oj-button.oj-focus-only.oj-button-half-chrome .oj-button-button,
+.delete-cnfrm  .oj-button-jqui.oj-active.oj-button-half-chrome, 
+.delete-cnfrm  .oj-button-nocomp.oj-button-half-chrome:active, 
+.delete-cnfrm  .oj-button-nocomp.oj-active.oj-button-half-chrome,
+.delete-cnfrm  .oj-button.oj-active.oj-button-half-chrome .oj-button-button {
+   background:none !important;
+   border: none !important;
+}
+.sidebar-container .user-name {
+    font-size: 24px;
+color: #023A4D;
+letter-spacing: 0;
+line-height: 28px;
+}
+
+.user-loc {
+    border: 1px solid #023A4D;
+    border-radius: 12px;
+    max-width: fit-content;
+    padding: 3px 15px;
+    font-size: 10px;
+    margin: 10px 0 10px 0;
+    color: #023A4D;
+}
+
+.sidebar-container .user-mngr {
+    display: grid;
+    padding-top: 5px;
+}
+.sidebar-container .user-mngr span:nth-child(1) {
+    opacity: 0.5;
+font-size: 14px;
+color: #023A4D;
+letter-spacing: 0;
+line-height: 17px;
+}
+
+.sidebar-container .user-mngr span:nth-child(2){
+    font-size: 16px;
+color: #023A4D;
+letter-spacing: 0;
+line-height: 25px;
+}
+
+
+.oj-offcanvas-glasspane-dim {
+    opacity: 1 !important;
+    z-index: 100;
+}
+.oj-offcanvas-glasspane {
+    background: #FFFFFF !important;
+}
+
+
+.sidebar-container .navbar-main {
+    padding: 50px 10px 30px 25px;
+}
+
+.sidebar-container .navbar-list, .sidebar-container .navbar-spec-list {
+    font-size: 18px;
+    color: #023A4D;
+    letter-spacing: 0;
+    line-height: 18px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    line-height: 21px;
+}
+
+.sidebar-container .navbar-list i {
+    padding-right: 10px;
+}
+
+.sidebar-container .navbar-spec-list span:nth-child(1){
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+.sidebar-container .navbar-list i , .sidebar-container .navbar-force-offline span:nth-child(2){
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+.sidebar-container .navbar-logout img {
+    width: 18px;
+}
+
+.sidebar-container .close-sidebar {
+    float: right;
+    width: 15px;
+    letter-spacing: 0;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+.sidebar-container oj-switch.oj-selected .oj-switch-track {
+    background-color: var(--oj-brand-color);
+    border-color: var(--app-theme-color);
+}
+
+.sidebar-container .oj-switch.oj-selected .oj-switch-thumb {
+    border-color: var(--app-theme-color);
+}
+
+.sidebar-container .sync-details {
+    padding-left: 40px;
+}
+
+.sidebar-container .sync-details span{
+    font-size: 14px;
+color: #97A5AA;
+letter-spacing: 0;
+display: block;
+line-height: 16px;
+padding: 0 !important;
+}
+
+.sidebar-container .navbar-logout {
+    bottom: 80px;
+    position: absolute;
+}
+
+.sidebar-container .version-details {
+    font-size: 14px;
+color: #97A5AA;
+letter-spacing: 0;
+line-height: 16px;
+display: grid;
+position: absolute;
+bottom: 50px;
+padding-left: 30px;
+}
+
+#jtiLogoutDialog {
+border-radius: 20px !important;
+outline: none !important;
+}
+
+#jtiLogoutDialog .oj-dialog-footer {
+    padding: 0px !important;
+}

@@ -1,0 +1,152 @@
+.jti-acconuts-module .jti-accounts-list {
+  margin: 5px;
+}
+.jti-acconuts-module .search-bar {
+    background-color: #fff;
+    border-radius: 6px;
+    border: solid 1px var(--app-default-text-color);
+    /* width:96%!important */
+}
+
+.jti-acconuts-module .search-icon .oj-fwk-icon {
+    width: 80%;
+    float: right;
+    padding-top: 10px;
+    color: var(--app-default-text-color);
+    opacity: 0.4;
+}
+
+.jti-acconuts-module .oj-text-field-input {
+    font-size: small;
+    margin:3px;
+}
+
+.jti-acconuts-module .accountName {
+    color: black !important;
+}
+
+.jti-acconuts-module .visitName {
+    color: gray;
+}
+
+.jti-acconuts-module .red-color {
+    color: #E03C31;
+}
+
+.jti-acconuts-module .oj-hybrid-applayout-header {
+
+    box-shadow: none;
+}
+
+.jti-acconuts-module oj-input-text .oj-text-field .oj-text-field-container {
+    border: none;
+}
+
+.jti-acconuts-module .accounts-filter {
+    border: 1px solid var(--app-default-text-color);
+    border-radius: 4px;
+    display: flex;
+    padding: 10px;
+    position: relative;
+}
+
+.jti-acconuts-module .accounts-filter .active {
+    padding: 5px;
+    background: var(--app-red-color);
+    border-radius: 50%;
+    position: absolute;
+    right: 6px;
+    top: 4px;
+}
+
+.jti-acconuts-module .accounts-filter i {
+    color: var(--app-default-text-color);
+}
+
+/* .jti-acconuts-module .accounts-filter.active i {
+  color: var(--app-white-color);
+} */
+
+.jti-acconuts-module .oj-applayout-fixed-top {
+    background-color: var(--app-white-color);
+}
+
+.jti-acconuts-module .oj-radioset .oj-radiocheckbox-icon {
+    background-image: url(../images/sprite.svg) !important;
+    outline: none;
+    background-size: 649px 44px !important;
+    background-position: -60px -4px !important;
+    width: 22px;
+    height: 22px;
+}
+.jti-acconuts-module .oj-radio-label.oj-selected{
+    color: var(--app-theme-color)!important;
+}
+.jti-acconuts-module .oj-radio-label{
+color: var(--app-default-text-color);
+}
+.jti-acconuts-module .oj-radioset .oj-selected .oj-radiocheckbox-icon{
+    background-image: url(../images/sprite.svg) !important;
+    background-size: 649px 44px !important;
+    background-position: -39px -4px !important;
+    width: 22px;
+    height: 22px;
+}
+
+.jti-acconuts-module .oj-radioset-wrapper {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background-color: #EBF1F6;
+    max-height: 100px;
+    flex-wrap: wrap;
+}
+
+.jti-acconuts-module .filter-section {
+    background-color: #EBF1F6;
+}
+
+.jti-acconuts-module .oj-radioset-wrapper .oj-choice-item {
+    background-image: none;
+    flex-direction: row-reverse;;
+}
+
+.jti-acconuts-module .oj-radioset-wrapper .oj-choice-item .oj-radio-label {
+    margin-left: 0 !important;
+
+}
+
+.jti-acconuts-module  .oj-choice-direction-row .oj-choice-item {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.jti-acconuts-module  .oj-radiocheckbox-label-text {
+    padding: 0;
+}
+
+.jti-acconuts-module #filterSection {
+  transition:height 0.2s;
+  /* flex:0; */
+  height:0;
+  overflow: hidden;
+}
+
+.jti-acconuts-module  #mainSection {
+  transition: height 0.2s;
+  /* flex:1; */
+  overflow-y: scroll;
+}
+
+.jti-acconuts-module .account-list-header {
+  padding: 10px 0 0 5px;
+  height: 25px;
+}
+
+.jti-acconuts-module oj-list-view {
+  background-color: #F4F8FB;
+}
+
+.jti-acconuts-module .oj-text-field .oj-text-field-container {
+    border: none;
+}

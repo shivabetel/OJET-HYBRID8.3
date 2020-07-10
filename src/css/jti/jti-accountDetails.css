@@ -1,0 +1,118 @@
+.jti-account-details .oj-hybrid-applayout-header .oj-hybrid-applayout-bar-title {
+  min-width: 50%;
+}
+
+.jti-account-details .share-percent {
+  font-size: 3.5rem;
+}
+
+.jti-account-details .account-info i{
+  width: 15px;
+}
+
+.jti-accountDetails-container .oj-hybrid-applayout-header {
+  box-shadow: none !important;
+  background: var(--app-light-bg-color);
+  padding: 0px;
+}
+
+.jti-account-details .oj-hybrid-applayout-header .oj-hybrid-applayout-bar-title {
+  min-width: 60%;
+}
+.jti-accountDetails-container .oj-applayout-content {
+  padding: 1rem 0 1rem 1rem;
+}
+
+.jti-accountDetails-container #accountInfoCol {
+  position: relative;
+  overflow: auto;
+}
+
+.jti-accountDetails-container #accountInfo oj-list-view {
+  padding-right: 20px;
+}
+
+.jti-accountDetails-container #accountInfo li {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  color: var(--app-default-text-color);
+  font-size: 14px;
+}
+
+.jti-accountDetails-container #accountInfo li .oj-listview-cell-element {
+  width: 100%;
+}
+
+.jti-accountDetails-container #dynamicModule {
+  position: absolute;
+  top: 0;
+  background-color: #fff;
+  transform: translate3d(120%, 0, 0);
+  transition: transform .5s ease-in-out;
+}
+
+.accountdetails-iconClass {
+  color: black;
+  opacity: 43%;
+  font-size: 14px;
+}
+
+.account-small-text {
+  text-align: right;
+  padding-right: 5px;
+  font-family: jti-Roboto;
+  font-size: 14px;
+  color: black;
+  opacity: 43%;
+}
+
+.accountDetails .oj-listview-item-element {
+  line-height: normal;
+  padding-left: 15px;
+}
+#accountDetailsContainer header.header-container.box-shadow {
+  box-shadow: none !important;
+  border-radius: none !important;
+}
+/* market share chart start */
+
+@keyframes fillup {
+  from { stroke-dasharray: 0 100; }
+}
+
+.pie {
+  width: 25%;
+  display: flex;
+}
+
+.pie__container--chart svg {
+  width: 100%; 
+  height: 100%;
+  transform: rotate(-90deg);
+  background: #ECEDEE;
+  border-radius: 50%;
+}
+
+.pie__container--chart circle {
+  fill: #ECEDEE;
+  stroke: var(--app-theme-color);
+  stroke-width: 32;
+  stroke-dasharray: 0 100; 
+  transition: stroke-dasharray .5s ease;
+}
+
+.pie__container {
+  position: relative;
+}
+
+@keyframes animated {
+  from {opacity: .25;}
+  to {opacity: 1;}
+}
+
+.pie__container--percent.animated {
+  animation: animated 1s ease;
+}
+
+/* market share chart start */

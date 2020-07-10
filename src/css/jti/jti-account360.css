@@ -1,0 +1,223 @@
+:root {
+  --app-status-pending-color: #76939D;
+}
+.jti-account-module .fixed-section {
+  background-color: var(--app-white-color);
+}
+
+.jti-account-module .account-info i {
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+.jti-account-module .next-appt-section {
+  background-color: var(--app-white-color);
+  border-radius: 10px;
+  position: relative;
+  z-index:10;
+}
+
+.jti-account-module .next-appt-section .arrow-right {
+  margin-left: auto;
+  color: var(--app-white-color);
+}
+
+.jti-account-module .next-appt-section .gradient-section {
+  background-image: linear-gradient(132deg, #8031A7 0%, #0092B2 100%);
+  height: 105px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.jti-account-module .next-appt-section .no-visit-gradient-section , .dashboard-container .no-visit-gradient-section{
+  background-image: linear-gradient(132deg, #797F96 0%, #849FA5 100%);
+  height: 95px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.jti-account-module .gradient-section .next-appt-date {
+  color: var(--app-white-color);
+}
+
+.jti-account-module .gradient-section .next-appt {
+  color: var(--app-white-color);
+  opacity: 0.5;
+}
+
+.jti-account-module .next-appt-section .progress-section {
+  padding: 15px 15px 5px 15px;
+}
+
+.jti-account-module .next-appt-section .in-progress {
+  font-size: 12px;
+  color: var(--app-white-color);
+  background-color: var(--app-theme-color);
+  border-radius: 8px;
+  padding: 1px 15px;;
+}
+
+.jti-account-module .next-appt-section .completed {
+  font-size: 12px;
+  color: var(--app-white-color);
+  background-color: var(--app-theme-color);
+  border-radius: 8px;
+  padding: 1px 10px;
+}
+
+.jti-account-module .next-appt-section .not-started {
+  font-size: 12px;
+  color: var(--app-white-color);
+  background-color: var(--app-status-pending-color);
+  border-radius: 8px;
+  padding: 1px 10px;
+}
+
+.jti-account-module .next-appt-section .re-scheduled {
+  font-size: 12px;
+  color: var(--app-red-color);
+  background-color: var(--app-status-pending-color);
+  border-radius: 8px;
+  padding: 1px 10px;
+}
+
+.jti-account-module .next-appt-section .not-serviced {
+  font-size: 12px;
+  color: var(--app-white-color);
+  background-color: var(--app-status-pending-color);
+  border-radius: 8px;
+  padding: 1px 10px;
+}
+
+
+
+.jti-account-module .market-share oj-progress.oj-progress-bar,
+.jti-account-module oj-progress.oj-progress-bar {
+  height: 9px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 8px;
+  background: #EAF0F7;
+  border: none;
+}
+
+.jti-account-module .market-share oj-progress .oj-progress-bar-value,
+.jti-account-module oj-progress .oj-progress-bar-value {
+  background: var(--app-theme-color);
+}
+
+
+.jti-account-module .completed-task-count {
+  font-size: 18px;
+}
+
+.jti-account-module .gradient-shadow {
+  filter: blur(10px);
+  background-image: linear-gradient(131deg, #8031A7 0%, #0092B2 100%);
+  border-radius: 10px;
+  opacity: 0.3;
+  position: absolute;
+  z-index: 0;
+  top: 22px;
+  height: 105px;
+  width: 95%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.jti-account-module .no-visit-gradient-shadow {
+  filter: blur(10px);
+  background-image: linear-gradient(132deg, #797F96 0%, #849FA5 100%);
+  border-radius: 10px;
+  opacity: 0.3;
+  position: absolute;
+  z-index: 0;
+  top: 22px;
+  height: 95px;
+  width: 95%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.jti-account-module .oj-applayout-content {
+  background-color: var(--app-light-bg-color);
+}
+
+.jti-account-module  .next-appt-module {
+  background-color: var(--app-light-bg-color);
+  position: relative;
+}
+
+.jti-account-module .generic-switcher-container #actions-tab-panel,
+.jti-account-module .generic-switcher-container #analytics-tab-panel  {
+  overflow-y: auto;
+}
+
+.jti-account-module .generic-switcher-container .oj-panel{
+  background-color: transparent !important;
+}
+
+.jti-account-module .generic-switcher-container .oj-panel.account-360-slot:first-child {
+  margin-top: 10px;
+}
+
+.jti-account-module .generic-switcher-container .oj-panel.account-360-slot {
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: var(--app-white-color) !important;
+  border: solid 1px rgba(2,58,77,0.10) !important;
+  border-radius: 10px;
+}
+
+.jti-account-module .oj-tabbar-horizontal .oj-tabbar-item-label {
+  font-size: 16px;
+  color: var(--app-default-text-color) !important;
+}
+
+.jti-account-module .is-private{
+  background-image: url(../images/shield-check.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 18px;
+  background-size: 15px;
+  height: 18px;
+}
+
+.jti-account-module .note-creation-date {
+  width: 90px;
+}
+
+/* visit history start */
+.jti-account-module .quantity {
+  font-size: 3.5rem;
+  line-height: 0.9em;
+}
+
+/* visit history end */
+
+
+.jti-account-module .new-visit-btn.oj-button.oj-default.oj-button-full-chrome .oj-button-button,
+.jti-account-module .new-visit-btn.oj-button.oj-active.oj-button-full-chrome .oj-button-button,
+.jti-account-module .new-visit-btn.oj-button.oj-focus.oj-button-full-chrome .oj-button-button {
+  background-color: var(--app-theme-color) !important;
+  border: 1px solid var(--app-border-color) !important;
+  height: 45px;
+  border-radius: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0, 0, 0, 0.05) !important;
+  outline: none;
+  padding: 0 10px;
+}
+
+.jti-account-module .new-visit {
+  position: fixed;
+  bottom: 20px;
+  right:10px;
+  z-index: 10;
+}
+
+.jti-account-module .fixed-bottom {
+  height: 70px;
+  /* background-color:white; */
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="13px" viewBox="0 0 17 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>check</title>
+    <g id="wireframes-mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="style-guidelines-icons" transform="translate(-439.000000, -549.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="button-right" transform="translate(425.000000, 533.000000)">
+                <path d="M19.8734284,28.3156564 L30.4136865,17.775364 C30.5784467,17.6106381 30.5784467,17.3434993 30.4136865,17.1787391 L29.4193575,16.1843758 C29.2545973,16.0196499 28.9874928,16.0196499 28.8227326,16.1843758 L19.575116,25.4319925 L16.1772245,22.0341009 C16.0124643,21.8693407 15.7453598,21.8693407 15.5805653,22.0341009 L14.5862363,23.0284299 C14.4214761,23.1931901 14.4214761,23.4602946 14.5862363,23.6250891 L19.2768035,28.3156564 C19.4415294,28.4803823 19.7086339,28.4803823 19.8734284,28.3156564 Z" id="check"></path>
+            </g>
+        </g>
+    </g>
+</svg>

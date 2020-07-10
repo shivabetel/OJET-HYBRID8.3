@@ -1,0 +1,74 @@
+jti-footer:not(.oj-complete) {
+	visibility: hidden;
+}
+
+jti-footer {
+	min-height: 55px;
+	width: 50px;
+}
+
+.footer-main {
+	width: 100%;
+	height: 55px;
+	margin: auto;
+	background: var(--app-white-color);
+	bottom: 0;
+	position: fixed;
+	padding-bottom: 5px !important;
+
+}
+
+.footer-main .footer-menu-item {
+	/* border-top: 4px solid var(--app-theme-color-light); */
+	/* color:var(--app-theme-color); */
+	background: var(--app-white-color);
+	font-size: 15px;
+	box-sizing: border-box;
+	padding-bottom: 5px;
+	opacity: 0.5;
+}
+
+.footer-main .footer-icon-class {
+	/* color: #0FAEA4; */
+	font-size: 24px;
+	padding-top: 2px;
+
+}
+
+.footer-main .selected-item {
+	/* border-top: 4px solid var(--app-theme-color); */
+	font-size: 15px;
+	box-sizing: border-box;
+	opacity: 1;
+}
+
+.footer-main .footer-menu-item p {
+	font-size: 12px;
+	opacity: 0.5;
+	margin-top: 3px;
+	/* color: var(--app-theme-color); */
+
+}
+
+.footer-main .badge {
+	position: absolute;
+	/* background-color:var(--app-red-color); */
+	border-radius: 50%;
+	padding: 3px 5px;
+	color: var(--app-white-color);
+	font-size: 8px;
+	box-sizing: border-box;
+	transform: translate(-8px, -3px);
+}
+
+.whiteSpace {
+	bottom: 0px;
+	height: 55px;
+	/* background: var(--app-theme-color-light); */
+}
+
+/* safearea classes */
+
+.oj-hybrid.oj-platform-ios.oj-platform-cordova.oj-hybrid-statusbar-spacer .oj-applayout-fixed-bottom .oj-hybrid-applayout-footer {
+	background: var(--app-white-color);
+}

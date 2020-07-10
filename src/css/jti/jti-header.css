@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+header.header-container {
+  height: auto;
+  min-height: 55px !important;
+  background-color: var(--app-white-color);
+  padding: 0% !important;
+   border: none !important;
+  
+}
+header.header-container.box-shadow{
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0px 0px 15px 15px;
+}
+
+header.header-container.no-box-shadow{
+  box-shadow: none !important;
+}
+header .header-title{
+  height: 55px;
+}
+header .header-start-icon {
+  padding-left: 3%;
+}
+
+header i.fa-chevron-left {
+  color: var(--app-default-text-color);
+  font-size: 18px;
+}
+
+header.header-container .detailsOption.more-info {
+  padding-top: 5px;
+}
+
+/* .oj-hybrid-applayout-header, .oj-hybrid-applayout-header-no-border{
+    border : none !important;
+    background-color: #F4F8FB;
+} */
+
+header .header-page-title {
+  font-weight: bold;
+  font-size: 16px !important;
+}
+
+/* .oj-hybrid-applayout-bar-title {
+  width: 100%;
+} */
+
+header .oj-flex-bar-start {
+  z-index: 2;
+}
+
+header .oj-hybrid-applayout-header-title {
+  z-index: 1;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  font-size: 1rem;
+  width: 62%;
+}
+
+header .header-name-style {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 11px !important;
+  font-weight: bold;
+  color: grey;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+header .oj-hybrid-applayout-header-title {
+  color: var(--app-default-text-color);
+}
+
+
+header #headerContainer .oj-button.oj-default.oj-button-outlined-chrome .oj-button-button {
+  color: var(--app-default-text-color);
+}
+
+header #headerContainer .oj-button.oj-default.oj-button-outlined-chrome .oj-button-button {
+  border-color: var(--app-default-text-color);
+}
+
+header #headerContainer .oj-button.oj-active.oj-button-outlined-chrome .oj-button-button {
+  color: var(--app-default-text-color);
+  border-color: var(--app-default-text-color);
+  background: var(--app-white-color);
+  padding: 5px !important;
+}
+
+header #headerContainer .oj-button.oj-button-outlined-chrome .oj-button-button,
+.oj-button.oj-button-outlined-chrome .oj-button-button:hover {
+  padding: 5px !important;
+}

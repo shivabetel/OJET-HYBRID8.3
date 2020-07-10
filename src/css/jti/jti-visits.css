@@ -1,0 +1,85 @@
+.visit-container {
+    height: 48vh;
+    background: var(--app-light-bg-color);
+}
+
+.visit-container .visitHeader {
+
+    padding: 10px 4px 0px 12px;
+
+}
+.main .activityHeader {
+
+    /* padding: 0px 4px 2px 12px; */
+    padding-left: 12px;
+
+}
+
+.visit-container .address,
+.contactDetails {
+    color: var(--app-default-text-color);
+    font-family: jti-Roboto;
+    font-size: 14px;
+    opacity: 83%;
+}
+
+.visitHeader .accountName {
+    padding-top: 5px;
+    padding-right: 2px;
+    ;
+
+    font-size: 14px;
+    color: var(--app-default-text-color);
+    font-family: jti-Roboto;
+    font-weight: bold;
+}
+
+.visitHeader .cancelIcon {
+    padding-top: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    color: var(--app-red-color);
+}
+
+hr {
+    border: solid var(--app-border-color);
+    border-width: 2px 0 0;
+}
+
+.visit-container .ownerName {
+    font-weight: bold;
+    padding-top: 10px !important;
+    color: var(--app-default-text-color);
+    font-size: 12px;
+}
+
+.main .visit-bottom-container{
+    background: var(--app-light-bg-color);
+} 
+.visit-bottom-container .blueButton {
+    background: var(--app-blue-color);
+}
+
+.visit-bottom-container .greenButton {
+    background: var(--app-theme-color);
+}
+
+.visit-bottom-container .oj-button-text {
+    color: white;
+
+}
+
+.visit-bottom-container .oj-button {
+    width: 80%;
+    border-radius: 5px;
+    padding: 2px 15px;
+    box-sizing: border-box;
+    font-size: 12px;
+    height: 2rem;
+}
+
+.main .visit-tasklist{
+    opacity: 83%;
+    padding-left: 30px;
+    font-size: 12px;
+}

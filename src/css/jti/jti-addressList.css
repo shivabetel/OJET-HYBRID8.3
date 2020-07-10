@@ -1,0 +1,339 @@
+.jti-address-list .oj-listview {
+    /* border: none; */
+    padding: 0px;
+    margin: 0px;
+    /* height:150px; */
+
+}
+
+/* .jti-address-list .oj-listview-container-touch {
+    overflow-y: hidden;
+} */
+
+.jti-address-list .oj-listview-item-element {
+    line-height: 1.1rem;
+    border-bottom: 1px solid var(--app-border-color);
+}
+
+
+
+.jti-address-list .oj-listview-item {
+    padding: 0px;
+}
+
+.jti-address-list .isDisable {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.jti-address-list .addressBotton-container {
+    /* height: 55px; */
+    position: absolute;
+    /* top: 55px; */
+    bottom: 9px;
+    width: 94%;
+    /* padding-top: 15px; */
+}
+
+.jti-address-list .address-padding {
+    padding: 2px 0px 0px 10px;
+}
+
+.jti-address-list .primaryFlag {
+    margin-top: 15px 10px 0px 0px;
+    padding: 0px 18px;
+    /* background: var(--app-theme-color); */
+    border-radius: 11px;
+    border: 1px solid var(--app-theme-color);
+    color: var(--app-theme-color);
+}
+
+.jti-address-list .addressType {
+    margin: 15px 10px 0px 0px !important;
+    padding: 0px 18px;
+    /* background: var(--app-theme-color); */
+    border-radius: 11px;
+    border: 1px solid var(--app-default-text-color);
+    color: var(--app-default-text-color);
+}
+
+.jti-address-list .oj-swipeactions {
+    display: block;
+    height: 150px;
+}
+
+.jti-address-list .oj-offcanvas-end {
+    /* // margin:11px 0px; */
+}
+
+.jti-address-list .swipeContent {
+    position: relative;
+    transform: translate(0%, 160%);
+    line-height: 1rem;
+
+}
+
+.jti-address-list #edit {
+    background: var(--app-blue-color)
+}
+
+.jti-address-list #delete {
+    background: var(--app-red-color)
+}
+
+.jti-address-list .swipeIcons {
+    color: var(--app-white-color);
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+#priAddressDeletion_layer .oj-dialog-header {
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid var(--app-border-color);
+}
+
+#priAddressDeletion_layer .address-diaHeader {
+    margin-top: -15px;
+
+}
+
+
+#priAddressDeletion_layer .delDialogLi {
+    border-bottom: 1px solid var(--app-border-color);
+    text-align: left;
+    padding-left: 10px;
+}
+
+.jti-address-list #navlistcontainer .oj-navigationlist-item.oj-selected {
+    border-color: var(--app-theme-color);
+    border-bottom: 1px solid var(--app-border-color);
+}
+
+#addressListOption html:not([dir="rtl"]) .oj-navigationlist-vertical:not(.oj-navigationlist-icon-only) .oj-navigationlist-item {
+    padding-left: calc(0.625rem - 5px);
+    border-width: 0 0 0 5px;
+    border-color: var(--app-theme-color);
+
+}
+
+#deleteCnfrmDialog .oj-dialog-header {
+    padding: 0;
+}
+
+.jti-address-module .oj-fwk-icon-cross {
+    width: 80%;
+    float: left;
+    padding-top: 10px;
+    margin-left: 0px;
+}
+
+.jti-address-module .new-addAddress-btn button {
+    background-color: var(--app-theme-color) !important;
+    border: 1px solid var(--app-border-color) !important;
+    height: 40px;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0, 0, 0, 0.05) !important;
+}
+
+.jti-address-module .new-addAddress-btn {
+    margin: 10px 10px 5px 0 !important;
+    float: right;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    z-index: 10;
+}
+
+.new-addAddress-btn .oj-button-text {
+    padding: 0 0.695rem;
+}
+
+.new-addAddress-btn .addaddressIcon {
+    padding-right: 0px;
+    font-size: 15px;
+}
+
+.jti-address-module #accountInfo {
+    background-color: var(--app-light-bg-color);
+}
+
+.address-form-container {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+}
+
+#loadAddressForm, #addVisitForm {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    cursor: pointer;
+}
+
+.jti-address-module .oj-applayout-fixed-top {
+    background-color: var(--app-light-bg-color);
+}
+
+.jti-address-list #navlistcontainer .primaryAddreSelection {
+    max-height: 50vh;
+    text-align: left;
+    padding: 5px;
+}
+
+.jti-address-list #navlistcontainer li {
+    border-bottom: 1px solid var(--app-default-text-color);
+}
+
+.jti-address-list .addresslistview {
+    padding-bottom: 65px;
+    background: var(--app-light-bg-color);
+}
+
+.jti-address-module .oj-applayout-content {
+    background: var(--app-light-bg-color) !important;
+}
+
+#addresslistview .subAddressClass {
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+#addresslistview .showOnMap {
+    padding-top: 10px;
+    color: var(--app-theme-color);
+}
+
+#addresslistview .showOnMapArrowIcon {
+    font-size: 14px;
+    padding-top: 2px;
+    color: var(--app-theme-color);
+}
+
+#navlistcontainer .radioTest {
+    background-image: url(../images/sprite.svg) !important;
+    outline: none;
+    background-size: 649px 44px !important;
+    background-position: -60px -4px !important;
+    width: 22px;
+    height: 22px;
+}
+
+
+#navlistcontainer .radioTest .oj-selected {
+    background-image: url(../images/sprite.svg) !important;
+    outline: none;
+    background-size: 649px 44px !important;
+    background-position: -60px -4px !important;
+    width: 22px;
+    height: 22px;
+}
+
+
+
+#priAddressDeletion .primSelection-cancel,
+#priAddressSel .primSelection-cancel {
+    font-size: 14px;
+    /* color: var(--app-theme-color); */
+    border-top: 1px solid var(--app-border-color)
+}
+
+#priAddressDeletion .primSelection-confirm,
+#priAddressSel .primSelection-confirm {
+    font-size: 14px;
+    color: var(--app-theme-color);
+    border-top: 1px solid var(--app-border-color);
+    border-left: 1px solid var(--app-border-color)
+}
+
+#priAddressDeletion_layer .oj-dialog,
+#priAddressSel .oj-dialog {
+    border-radius: 12px 12px 0px 0px;
+}
+
+#priAddressDeletion .oj-radioset.oj-choice-direction-column .oj-choice-item,
+#priAddressSel .oj-radioset.oj-choice-direction-column .oj-choice-item {
+    border-top: 0px;
+}
+
+
+#priAddressDeletion .oj-radioset-wrapper .oj-choice-item,
+#priAddressSel .oj-radioset-wrapper .oj-choice-item {
+    background-image: none;
+
+    ;
+}
+
+#priAddressDeletion .oj-radioset-wrapper .oj-choice-item .oj-radio-label,
+#priAddressSel .oj-radioset-wrapper .oj-choice-item .oj-radio-label {
+    margin-left: 0 !important;
+    display: block;
+    white-space: nowrap;
+    width: 1px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+}
+
+#priAddressDeletion .oj-radiocheckbox-label-text,
+#priAddressSel .oj-radiocheckbox-label-text {
+    padding: 0;
+    font-size: 13px;
+    /* color: var(--app-default-text-color) */
+}
+
+#priAddressDeletion .oj-radioset .oj-radiocheckbox-icon,
+#priAddressSel .oj-radioset .oj-radiocheckbox-icon {
+    background-image: url(../images/sprite.svg) !important;
+    outline: none;
+    background-size: 649px 44px !important;
+    background-position: -60px -4px !important;
+    width: 22px;
+    height: 22px;
+}
+
+#priAddressDeletion .oj-radioset .oj-selected .oj-radiocheckbox-icon,
+#priAddressSel .oj-radioset .oj-selected .oj-radiocheckbox-icon {
+    background-image: url(../images/sprite.svg) !important;
+    background-size: 649px 44px !important;
+    background-position: -39px -4px !important;
+    width: 22px;
+    height: 22px;
+
+}
+
+#priAddressDeletion .oj-radio-label.oj-selected,
+#priAddressSel .oj-radio-label.oj-selected {
+    color: var(--app-theme-color);
+}
+
+#priAddressDeletion .oj-radioset-wrapper,
+.oj-checkboxset-wrapper,
+#priAddressSel .oj-radioset-wrapper,
+.oj-checkboxset-wrapper {
+    border: none !important;
+    /* border-style: solid; */
+    /* border-width: 1px; */
+    /* border-radius: 0; */
+    margin: 15px 10px 0px 0px;
+    background: var(--app-white-color);
+}
+
+.addressDialogBox#priAddressSel,
+.addressDialogBox#priAddressDeletion {
+    display: none;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    bottom: 0 !important;
+    right: auto;
+    position: fixed;
+    top: auto !important;
+}

@@ -1,0 +1,39 @@
+
+.survey-questioner-module .survey-text{
+    font-size: 24px;
+}
+
+.survey-questioner-module .progress .oj-progress-bar{
+    height: 10px;
+    display: none;
+    border-radius: 8px;
+}
+
+.survey-questioner-module .progress .oj-progress-bar .oj-progress-bar-value{
+    background:  var(--app-theme-color);
+}
+
+.survey-questioner-module  .oj-applayout-content{
+    background-color: var(--app-light-bg-color)
+}
+
+.survey-questioner-module  .oj-applayout-content .quesiton{
+    font-size: 20px;
+}
+
+
+.survey-questioner-module  .oj-applayout-content .countQuestion{
+    font-size: 14px;
+    padding-left: 15px;
+}
+.survey-questioner-module {
+    background-color: var(--app-light-bg-color)
+
+}
+.survey-questioner-module .box-shadow{box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0px 0px 15px 15px ;}
+
+    .survey-questioner-module .surveySummary{
+        font-size: 16px;
+        color: #01A59C;
+        letter-spacing: 0;}

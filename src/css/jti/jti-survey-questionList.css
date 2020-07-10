@@ -1,0 +1,23 @@
+.survey-details-header .accountName {
+  font-size: 14px;
+}
+
+.survey-details-header .surveyPreview {
+  font-size: 14px;
+  color: var(--app-orange-color);
+  letter-spacing: 0;
+}
+
+.SurveyQuestionList-container .surveyQuestionText{
+  opacity: 0.5;
+font-size: 14px;
+
+}
+
+.jti-SurveyQuestionList-module {
+  background: var(--app-light-bg-color);
+
+}
+
+.jti-SurveyQuestionList-module .box-shadow{ box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0px 0px 15px 15px;}

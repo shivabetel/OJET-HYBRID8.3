@@ -1,0 +1,19 @@
+{
+  "name": "demo-hybrid",
+  "version": "1.0.0",
+  "description": "An Oracle JavaScript Extension Toolkit(JET) web app",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.1",
+    "@oracle/oraclejet": "~8.3.0",
+    "izitoast": "^1.4.0",
+    "jszip": "^3.5.0",
+    "moment": "^2.27.0"
+  },
+  "devDependencies": {
+    "@oracle/oraclejet-tooling": "~8.3.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "private": true
+}

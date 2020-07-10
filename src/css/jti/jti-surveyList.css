@@ -1,0 +1,32 @@
+.surveyList-container .last-survey-performed{
+    opacity: 0.5;
+    /* font-family: Roboto-Regular; */
+    font-size: 14px;
+    color: #023A4D;
+    letter-spacing: 0;
+}
+
+.surveyList-container  .account-survey-status{background: var(--app-blue-color);
+    color: white;
+    border-radius: 15px;
+    padding: 2px 12px;
+}
+.surveyList-container .open-surveyText{
+    /* font-family: Roboto-Regular; */
+    font-size: 14px;
+    color: #01A59C;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: 20px;
+}
+.surveylistview .survey-arrow-icon{
+
+    font-size: 14px !important;
+    color: #01A59C !important;
+    text-align: right;
+    line-height: 20px;
+
+}
+.jti-surveyList-module{
+    background: var(--app-light-bg-color);
+}

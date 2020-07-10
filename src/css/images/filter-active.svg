@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="25px" viewBox="0 0 23 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>filter active</title>
+    <g id="wireframes-mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="style-guidelines-icons" transform="translate(-414.000000, -391.000000)">
+            <g id="filter-active" transform="translate(414.000008, 391.000000)">
+                <path d="M13.7812094,22.6835654 L13.7812094,13.6279859 L20.4213189,6.98591379 C21.657913,5.74931967 20.7815265,3.62504381 19.0292343,3.62504381 L1.97106075,3.62504381 C0.222253197,3.62504381 -0.660101343,5.74683631 0.578976132,6.98591379 L7.21872509,13.6279859 L7.21872509,20.6875031 C7.21872509,21.3071821 7.51048007,21.890692 8.00623122,22.3281242 L10.631225,24.2585777 C11.9138814,25.1549512 13.7812094,24.321623 13.7812094,22.6835654 Z M11.8124641,22.6562484 L9.18747039,20.6875031 L9.18747039,12.8125219 L1.9687376,5.59378912 L19.0311969,5.59378912 L11.8124641,12.8125219 L11.8124641,22.6562484 Z" id="filter" fill="#023A4D" fill-rule="nonzero"></path>
+                <circle id="Oval-Copy-4" fill="#E03C31" cx="18.9999923" cy="4" r="4"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

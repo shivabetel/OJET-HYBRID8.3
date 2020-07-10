@@ -1,0 +1,12 @@
+[
+  "SyncLocalId INTEGER PRIMARY KEY",
+  "SyncParentId",
+  "SyncParentType",
+  "SyncParentLocalId INTEGER",
+  "SyncOperation",
+  "SyncData",
+  "SyncCreationDate",
+  "SyncUpdateDate",
+  "SyncUser",
+  "SyncDeltaFlag"
+]

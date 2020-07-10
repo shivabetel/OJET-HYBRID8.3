@@ -1,0 +1,842 @@
+.route-container {
+  background: #f4f8fb;
+  height: 100vh;
+}
+
+.visit-container {
+  background: var(--app-light-bg-color)
+}
+
+.route-container .progress-count {
+  color: var(--app-default-color);
+  font-size: 13px;
+}
+
+.routeIcon-container .routeIcon {
+
+  margin: 0 auto;
+  text-align: center;
+
+  margin: 0px 10px 0px 0px;
+
+}
+
+
+.route-container .demo-panel-customizations {
+  border-radius: 7px;
+  border-color: var(--app-theme-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 90px;
+  height: 40px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(153, 147, 153, 1);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(153, 147, 153, 1);
+  box-shadow: 0px 0px 30px 0px rgba(153, 147, 153, 1);
+  opacity: 0.8;
+  margin-left: 10px;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.route-container .dynamic-height {
+  height: 95vh !important;
+  transition: height .4s linear;
+}
+
+.route-container .route-header-height {
+  height: 45vh;
+  transition: height .2s linear;
+}
+
+.route-container .route-header-height header {
+  background-color: transparent;
+  position: relative;
+  z-index: 10;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+.route-container .sub-header {
+  position: relative;
+  top: 15px;
+  z-index: 10;
+  display: flex;
+  width: 175px;
+  float: right;
+  margin-right: 20px;
+}
+
+
+.route-container .grey-gradient {
+  background-color: grey;
+}
+
+
+.route-container .oj-table-header {
+  height: 1px;
+  opacity: 1;
+}
+
+.route-container .last-visit {
+  border: solid 1px #000;
+  padding: 5px;
+  width: 65px;
+  text-align: center;
+}
+
+.route-container .oj-hybrid-applayout-header {
+  padding: 0;
+}
+
+.route-container .oj-hybrid-applayout-content {
+  border-top: solid 1px #C8C7CC;
+  /* border-radius: 15px; */
+  background: #f4f8fb;
+  position: relative;
+  top: -10px;
+  z-index: 100;
+}
+
+.route-container .oj-applayout-content {
+  overflow: hidden;
+  height: 45vh;
+}
+
+.route-container .footer-section {
+  overflow: hidden;
+  height: 5vh;
+}
+
+.route-container .container-small {
+  height: 10vh !important;
+}
+
+.route-container .route-table {
+  border: solid 1px #e5e6e6;
+}
+
+.route-container #map {
+  width: 100%;
+  top: 0px;
+  z-index: 1;
+}
+
+/* .route-container .map img {
+    height: 100vh;
+  } */
+
+.route-container .expander {
+  border: solid 3px rgb(179, 176, 176);
+  width: 120px;
+  border-radius: 15px;
+}
+
+.route-container oj-table.table-transition {
+  transition: height .3s linear;
+}
+
+.route-container .oj-table {
+  border: solid 1px #e5e6e6;
+  min-height: 1px;
+}
+
+.route-container .route-date-picker {
+  width: 1px;
+  min-width: 1px;
+  max-width: 1px;
+  opacity: 0.1;
+}
+
+.route-header-height .visit-complete {
+  font-size: 8px;
+  color: var(--app-white-color);
+}
+
+#mainContent .calendarIcon {
+  /* color:var(--app-theme-color); */
+  font-size: 18px;
+  color: #023A4D;
+  padding: 8px;
+  border: 1px solid var(--app-default-text-color);
+}
+
+#mainContent .selectedDateText {
+  color: #023A4D;
+}
+
+.route-header-height .plusIcon {
+  color: var(--app-theme-color);
+  font-size: 30px;
+  position: relative;
+  font-size: 24;
+  bottom: 40px;
+  margin-left: 5px;
+  z-index: 1;
+}
+.route-header-height .navtoggleButtom{
+  
+    position: fixed;
+    margin-left: 5px;
+    z-index: 1;
+    top: 0px;
+    left: -3px;
+    background: var(--app-light-bg-color);
+    padding: 7px 10px;
+}
+.route-container .routeContent {
+  border-top: 1px solid gray;
+  /* border-radius: 20px; */
+  border-bottom: none !important;
+  box-sizing: border-box;
+}
+
+.route-container .oj-listview-no-data-message {
+  padding: 0.5rem;
+  background-color: #f4f8fb;
+  ;
+  min-height: 1rem;
+}
+
+.hide-element {
+  display: none;
+
+}
+
+.item-marker .swiipeReschedule {
+  background: #407EC9;
+  padding: 5px;
+  color: white;
+  font-size: 10px;
+  padding-bottom: 2px;
+}
+
+.item-marker .swipeCancel {
+  background: #E03C31;
+  padding: 5px;
+  color: white;
+  font-size: 10px;
+}
+
+.item-marker .swipeIcons {
+  font-size: 22px;
+  padding: 4px;
+}
+
+.item-marker .arrowIcon {
+  /* color: rgb(182, 182, 184); */
+}
+
+.item-marker .routeDateText {
+  font-size: 12px;
+  opacity: 0.6;
+  padding-bottom: 2px;
+  font-family: jti-Roboto;
+}
+.item-marker .routeTimeText {
+  font-size: 14px;
+  /* padding-bottom: 2px; */
+  font-family: jti-Roboto;
+}
+.item-marker .accountText {
+  padding: 5px;
+  font-size: 14px;
+  font-family: jti-Roboto;
+  ;
+}
+.item-marker .accountAddress{
+  padding-top: 3px;
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+.accountText .ellipsis_account{white-space: nowrap;
+  width: 1px !important;
+  overflow: hidden;
+  text-overflow: ellipsis;}
+.diabledMap {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.dialog-container {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+
+.dialog-container .dialog {
+  position: relative;
+
+  width: 600px;
+  margin-left: -300px;
+
+  height: 400px;
+  margin-top: -200px;
+}
+
+#calDialog .oj-dialog-header {
+  /* // background-color: var(--app-theme-color-light); */
+  padding: 0px !important;
+  max-width: 13%;
+  text-align: left;
+  /* color: var(--app-theme-color) */
+}
+#calDialog .oj-button.oj-default.oj-button-half-chrome .oj-button-icon,
+#calDialog .oj-button.oj-hover.oj-button-half-chrome .oj-button-icon,
+#calDialog .oj-button.oj-focus-only.oj-button-half-chrome .oj-button-icon,
+#calDialog .oj-button.oj-active.oj-button-half-chrome .oj-button-icon,
+#calDialog .oj-button.oj-default.oj-button-half-chrome .oj-button-button,
+#calDialog .oj-button.oj-focus-only.oj-button-half-chrome .oj-button-button,
+#calDialog .oj-button.oj-active.oj-button-half-chrome .oj-button-button{
+  color: black !important;
+  font-size: 17px !important;
+  border: none !important;
+  background:none !important;
+
+}
+
+#calDialog_layer .oj-dialog {
+  top: 15vh !important;
+  /* left:5vh !important; */
+  overflow: hidden;
+  width: 92% !important;
+  min-width: 92%;
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 5px 0 hsla(0, 0%, 0%, 0.2);
+  background: white;
+  border: 1px solid #e0e1e1;
+  border-radius: 12px;
+  margin: 10px;
+  min-height: 50vh;
+}
+
+#calContainer.oj-fwk-icon-cross:before {
+  /* color: var(--app-theme-color); */
+  font-weight: bold;
+  font-size: 18px;
+  padding-right: 8px
+}
+
+#calDialog .oj-dialog-header-close-wrapper {
+  /* margin-top: -1.4375rem; */
+  position: relative;
+  margin: 0 auto;
+}
+
+.dialog-container .oj-dialog-content {
+  background-color: var(--app-light-bg-color);
+}
+
+.dialogbody .calDateSection {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.calDateSection i {
+  position: absolute;
+  right: 0px;
+  padding: 6px;
+  top: 0px;
+  /* // margin-top: -35px; */
+}
+
+#calDialog .dialogbody .oj-inputdatetime-date-only .oj-inputdatetime-input {
+  text-align: left;
+  padding-left: 5px;
+  width: 100%;
+  font-family: jti-Roboto;
+  font-size: 12px;
+  color: black;
+  border: 1px solid #c6c7cb !important;
+}
+
+
+
+#calDialog .dialogbody {
+  margin: 5px 40px 10px 40px;
+}
+
+#calDialog .dialog-bottom-container .oj-button {
+  border-radius: 5px;
+  padding: 2px 15px;
+  box-sizing: border-box;
+  font-size: 12px;
+  height: 2rem;
+  color: white;
+  background: var(--app-theme-color);
+}
+
+#calDialog .dialog-bottom-container .oj-button-text-only .oj-button-text {
+  padding: 10px;
+  color: white;
+}
+
+.item-marker .visit-completed {
+  border-left: 5px solid var(--app-theme-color);
+  box-sizing: border-box;
+}
+
+.routeIcon-container .filterApplied-parent {
+  position: relative;
+}
+
+.routeIcon-container .filterApplied {
+  padding: 5px;
+  background: var(--app-red-color);
+  border-radius: 50%;
+  position: absolute;
+  right: 6px;
+  top: 4px;
+}
+
+#visitStatusSelection .oj-checkboxset-wrapper .oj-radiocheckbox-icon {
+  background-size: 830px 44px !important;
+  background-position: -228px -2px !important;
+  width: 17px !important;
+  height: 17px !important;
+  ;
+  border: 1px solid gray !important;
+  ;
+  box-sizing: border-box !important;
+  ;
+}
+
+#visitStatusSelection .oj-checkboxset.oj-choice-direction-column .oj-choice-item {
+  border: none !important;
+
+}
+
+#visitStatusSelection .oj-checkboxset .oj-selected .oj-radiocheckbox-icon,
+#visitStatusSelection .oj-checkboxset-wrapper>.oj-active.oj-selected .oj-radiocheckbox-icon {
+  /* background-image: url(images/sprites/sprite.svg);
+  background-size: 830px 44px;
+  background-position: -228px -2px; */
+  width: 17px;
+  height: 17px;
+}
+
+#visitStatusSelection .oj-checkboxset.oj-choice-direction-column .oj-choice-item {
+  background-image: linear-gradient(#e0e1e1, #e0e1e1) !important;
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  ;
+  background: white !important;
+  ;
+  box-sizing: border-box !important;
+  ;
+  border-top: 1px solid transparent !important;
+  ;
+
+}
+
+#visitStatusSelection .oj-checkbox-label.oj-selected {
+  color: var(--app-theme-color) !important;
+}
+
+#visitStatusSelection .oj-checkbox-label {
+  color: var(--app-default-color);
+  font-size: 14px;
+}
+
+#visitStatusSelection h4 {
+  font-size: 17px !important;
+  font-weight: 600;
+}
+
+#visitStatusSelection h3 {
+  font-size: 18px !important;
+}
+
+#visitStatusSelection .oj-dialog-header {
+  border-bottom: 1px solid var(--app-border-color);
+  justify-content: center !important;
+}
+
+#visitStatusSelection #filter-header {
+  margin: 0 0 10px 0 !important;
+}
+
+#visitStatusSelection .oj-button.oj-default.oj-button-half-chrome .oj-button-icon,
+#visitStatusSelection .oj-button.oj-hover.oj-button-half-chrome .oj-button-icon,
+#visitStatusSelection .oj-button.oj-focus-only.oj-button-half-chrome .oj-button-icon,
+#visitStatusSelection .oj-button.oj-active.oj-button-half-chrome .oj-button-icon,
+#visitStatusSelection .oj-button.oj-default.oj-button-half-chrome .oj-button-button,
+#visitStatusSelection .oj-button.oj-focus-only.oj-button-half-chrome .oj-button-button,
+#visitStatusSelection .oj-button.oj-active.oj-button-half-chrome .oj-button-button {
+  color: black !important;
+  font-size: 17px !important;
+  border: none !important;
+  background:none !important;
+}
+
+.filter-footer .oj-button.oj-focus-only.oj-button-half-chrome .oj-button-button,
+.filter-footer .oj-button.oj-default.oj-button-half-chrome .oj-button-button,
+.filter-footer .oj-button.oj-active.oj-button-half-chrome .oj-button-button {
+  text-shadow: none !important;
+  background-color: none !important;
+  color: white !important;
+  font-size: 17px !important;
+  /* padding: 16px;
+  text-align: center; */
+}
+
+
+
+
+
+#calDialog .oj-datepicker-inline .oj-datepicker-content {
+  background-color: white;
+  border: none !important;
+}
+
+#calDialog .dateRange-reset {
+  font-size: 14px;
+  /* color: var(--app-red-color); */
+  border: 1px solid var(--app-default-text-color);
+  border-radius: 5px;
+  width: 80%;
+  margin: 0 auto;
+
+  padding: 10px 0px;
+}
+
+#calDialog .dateRange-cancel {
+  font-size: 14px;
+  /* color: var(--app-theme-color); */
+  border-top: 1px solid var(--app-border-color)
+}
+
+#calDialog .dateRange-apply,
+#visitStatusSelection .dateRange-apply {
+  font-size: 14px;
+  color: var(--app-theme-color);
+  border-top: 1px solid var(--app-border-color);
+  border-left: 1px solid var(--app-border-color)
+    /* border-left: 1px solid var(--app-border-color) */
+}
+
+#visitStatusSelection .filter-cancel {
+  padding: 10px 15px;
+  font-size: 14px;
+
+
+}
+
+#visitStatusSelection .filter-apply {
+  background: var(--app-theme-color);
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: var(--app-white-color);
+  font-size: 14px;
+}
+
+#jti-visitDetails-navlist h3 {
+  margin: 0px;
+  font-size: 18px;
+}
+
+#jti-visitDetails-navlist small {
+  font-size: 95%;
+  color: var(--app-default-text-color)
+}
+
+#calDialog .generic-switcher-container ul#jti-switcher-header li.jti-switcher-ele.oj-selected .curved-border {
+  border: solid 3px var(--app-theme-color);
+  opacity: 1 !important;
+}
+
+#jti-visitDetails-navlist #jti-switcher-header a.oj-tabbar-item-content {
+  text-decoration: none;
+  font-weight: normal;
+  outline: none;
+  overflow: hidden;
+  /* opacity: 0.6;  */
+}
+
+#jti-visitDetails-navlist #jti-switcher-header a:active,
+#jti-visitDetails-navlist #jti-switcher-header a:hover {
+
+  text-decoration: none;
+  font-weight: normal;
+  outline: none;
+  overflow: hidden;
+  opacity: 1 !important;
+
+}
+
+#visitStatusSelection .filter-section {
+  background-color: #EBF1F6;
+}
+
+#visitStatusFilter .oj-radioset-wrapper {
+  border: none !important;
+  background-color: var(--app-white-color)!important;
+
+}
+
+.filter-selction .oj-radioset-wrapper .oj-choice-item {
+  background-image: none;
+  flex-direction: row-reverse;
+}
+
+.filter-selction .oj-radioset-wrapper .oj-choice-item .oj-radio-label {
+  margin-left: 0 !important;
+
+}
+
+.filter-selction .oj-choice-direction-row .oj-choice-item {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.filter-selction .oj-radiocheckbox-label-text {
+  padding: 0;
+  font-size: 14px;
+}
+
+.filter-selction #filterSection {
+  transition: height 0.2s;
+  /* flex:0; */
+  height: 0;
+  overflow: hidden;
+}
+
+.filter-selction .oj-radioset .oj-radiocheckbox-icon {
+  background-image: url(../images/sprite.svg) !important;
+  outline: none;
+  background-size: 649px 44px !important;
+  background-position: -60px -4px !important;
+  width: 22px;
+  height: 22px;
+}
+
+.filter-selction .oj-radioset .oj-selected .oj-radiocheckbox-icon {
+  background-image: url(../images/sprite.svg) !important;
+  background-size: 649px 44px !important;
+  background-position: -39px -4px !important;
+  width: 22px;
+  height: 22px;
+}
+
+#visitStatusFilter html:not([dir="rtl"]) .oj-radioset-input-end .oj-radiocheckbox-icon,
+.oj-radioset-input-end .oj-radiocheckbox-icon {
+  margin: 0 2px 0 10px !important;
+}
+
+#visitStatusFilter html:not([dir="rtl"]) .oj-radioset-input-end .oj-radiocheckbox-label-text {
+  padding: 0 0 0 3px !important;
+}
+
+#visitStatusFilter .oj-radio-label.oj-selected,
+.oj-checkbox-label.oj-selected {
+  color: var(--app-theme-color);
+}
+
+.newVisit .newVisitIcon {
+  color: white;
+  padding: 8px 10px 0 0;
+
+}
+
+#mainContent .newVisit {
+  position: fixed;
+  /* bottom: 75px; */
+  right: 20px;
+  background: var(--app-theme-color);
+  padding: 2px 19px;
+  border-radius: 20px;
+  font-size: 14px;
+  z-index: 111;
+}
+
+  #listview .visitIndex_singelDigit{
+/* background: var(--app-theme-color); */
+  border-radius: 50%;
+  color: var(--app-white-color);
+  padding: 6px 10px 6px 8px;
+  font-size: 11px;
+  box-sizing: border-box;
+  /* margin-right: 10px; */
+}
+#listview .visitIndex_doubleDigit{
+  /* background: var(--app-theme-color); */
+  border-radius: 50%;
+  color: var(--app-white-color);
+  padding: 6px 6px 6px 5px;
+  font-size: 11px;
+  box-sizing: border-box;
+  /* margin-right: 10px; */
+}
+#listview .visitStatus_completed{
+background: var(--app-orange-color); 
+}
+
+#listview .visitStatus_inProgress{
+background: var(--app-theme-color); 
+}
+#listview .visitStatus_notStarted{
+ background: var(--app-gray-color); 
+}
+#listview .visitStatus_notInService{
+  background: var(--app-default-text-color); 
+  
+}
+#listview .visitStatus_rescheduled{
+background: var(--app-purple-color); 
+  
+}
+/* #calDialog_layer .oj-popup.oj-popup-tail-simple {
+ 
+  display: none !important;
+}
+#calDialog_layer .oj-popup {
+  display: none !important;
+} */
+@media(max-width: 600px) {
+
+  .route-container .container-small {
+    height: 9vh !important;
+  }
+
+  .route-container #mainContent {
+    padding-bottom: 65px !important;
+  }
+
+  .route-container .dynamic-height {
+    height: 78vh !important;
+    transition: height .4s linear;
+  }
+
+  #listview .visitIndex_singelDigit{
+    /* background: var(--app-theme-color); */
+      border-radius: 50%;
+      color: var(--app-white-color);
+      padding: 6px 10px 4px 8px;
+      font-size: 11px;
+      box-sizing: border-box;
+      /* margin-right: 10px; */
+    }
+    #listview .visitIndex_noData{
+      /* background: var(--app-theme-color); */
+        border-radius: 50%;
+        color: var(--app-white-color);
+        padding: 6px 10px 16px 8px;
+        font-size: 11px;
+        box-sizing: border-box;
+        /* margin-right: 10px; */
+      }
+    #listview .visitIndex_doubleDigit{
+      /* background: var(--app-theme-color); */
+      border-radius: 50%;
+      color: var(--app-white-color);
+      padding: 6px 6px 4px 5px;
+      font-size: 11px;
+      box-sizing: border-box;
+      /* margin-right: 10px; */
+    }
+}
+
+.route-container .oj-listview-item {
+  padding: 0px !important;
+}
+/* .oj-dialog-header oj-button{
+  float: left;
+  margin-left: -50%;
+} */
+/* #visitStatusSelection .oj-dialog-header-close-wrapper {
+  margin-left: 0;
+  margin-right:108%;
+  } */
+@media(min-width: 600px) {
+  #listview .visitIndex_noData{
+    /* background: var(--app-theme-color); */
+      border-radius: 50%;
+      color: var(--app-white-color);
+      padding: 6px 10px 16px 8px;
+      font-size: 11px;
+      box-sizing: border-box;
+      max-width: 48%;
+      /* margin-right: 10px; */
+    }
+  .route-container .container-small {
+    height: 20vh !important;
+  }
+
+  .route-container #mainContent {
+    padding-bottom: 65px !important;
+  }
+
+  .route-container .dynamic-height {
+    height: 64vh !important;
+    transition: height .4s linear;
+  }
+
+  .routesContainer .oj-applayout-content {
+    padding-bottom: 0px !important;
+  }
+  #listview .visitIndex_singelDigit{
+    /* background: var(--app-theme-color); */
+      border-radius: 50%;
+      color: var(--app-white-color);
+      padding: 6px 10px 4px 8px;
+      font-size: 11px;
+      box-sizing: border-box;
+      max-width: 48%;
+      /* margin-right: 10px; */
+    }
+    #listview .visitIndex_doubleDigit{
+      /* background: var(--app-theme-color); */
+      border-radius: 50%;
+      color: var(--app-white-color);
+      padding: 6px 6px 4px 5px;
+      font-size: 11px;
+      box-sizing: border-box;
+      max-width: 48%;
+      /* margin-right: 10px; */
+    }
+}
+
+#visitStatusSelection oj-button {
+  position: fixed;
+  left: 5px;
+}
+
+/* add-visit styles */
+
+#route-add-visit-form #add-visit-form .oj-form-control{
+/* background: #FFFFFF; */
+border: 1px solid #023A4D;
+border-radius: 4px;
+/* padding-left: 10px; */
+}
+
+#route-add-visit-form #add-visit-form oj-input-text.oj-text-field-container {
+height: 44px;
+}
+
+#route-add-visit-form #add-visit-form input {
+  padding-left: 10px;
+  text-align: left;
+}
+
+#route-add-visit-form #add-visit-form .oj-form-layout , 
+#route-add-visit-form #add-visit-form .oj-form > .oj-flex {
+  border: none !important;
+}
+
+#route-add-visit-form .no-temp-select {
+  margin-top: 30px;
+  padding: 15px;
+  border-top: 1px solid #e5e6e6;
+}
+
+.oj-datepicker-popup {
+  top: 250px !important;
+}

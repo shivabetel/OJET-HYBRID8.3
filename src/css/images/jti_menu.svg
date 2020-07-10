@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="13px" viewBox="0 0 28 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>menu button</title>
+    <desc>Created with Sketch.</desc>
+    <g id="wireframes-mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="style-guidelines-icons" transform="translate(-76.000000, -283.000000)" fill="#023A4D" fill-rule="nonzero">
+            <path d="M103,286.714292 C103.552307,286.714292 104,286.344767 104,285.888894 L104,283.825398 C104,283.369525 103.552307,283 103,283 L77,283 C76.4476929,283 76,283.369525 76,283.825398 L76,285.888894 C76,286.344767 76.4476929,286.714292 77,286.714292 L103,286.714292 Z M92.7142613,296 C93.0561652,296 93.333308,295.630475 93.333308,295.174602 L93.333308,293.111106 C93.333308,292.655233 93.0561652,292.285708 92.7142613,292.285708 L76.6190467,292.285708 C76.2771428,292.285708 76,292.655233 76,293.111106 L76,295.174602 C76,295.630475 76.2771428,296 76.6190467,296 L92.7142613,296 Z" id="menu-button"></path>
+        </g>
+    </g>
+</svg>

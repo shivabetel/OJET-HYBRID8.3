@@ -1,0 +1,113 @@
+#accountEditOptionContainer .filter-cancel {}
+
+#accountEditOptionContainer .save-acountInfo {
+  /* color: var(--app-theme-color) */
+}
+
+#accountInformation .oj-accordion-collapsible>.oj-collapsible-header {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: 0 solid #e5e6e6;
+  border-width: 0;
+  font-size: 1.1rem;
+  background-color: #f2f2f3;
+  background-image: none;
+  color: var(--app-default-text-color);
+}
+
+#accountInformation .oj-inputdatetime.oj-disabled .oj-inputdatetime-input {
+  border-color: #e8eaea;
+  background: #e8eaea;
+  border-color: var(--app-default-text-color);
+  opacity: 0.8;
+  color: black !important;
+}
+
+#accountInformation .oj-inputdatetime.oj-disabled .oj-inputdatetime-input {
+  text-align: left;
+}
+ #jti-accountInformation-module  .oj-hybrid-applayout-bar-title {
+  align-items: center;
+  justify-content: center;
+
+
+  white-space: nowrap;
+  transform: none !important;
+  bottom: 0;
+  top: 0;
+}
+
+#accountInforForm .oj-label {
+  padding-right: 10px;
+  font-size: 0.675rem !important;
+}
+
+.jti-accountInformation-module .oj-form-layout {
+  border: none !important;
+}
+
+.oj-hybrid #accountInforForm input {
+  padding-left: 10px !important;
+  padding-top: 5px !important;
+  font-size: 14px !important;
+  color: black !important; 
+  text-align: left;
+}
+
+#accountInforForm .oj-inputtext.oj-disabled .oj-inputtext-input {
+  opacity: 0.5;
+}
+#accountInforForm .oj-inputtext,
+#accountInforForm .oj-combobox,
+#accountInforForm .oj-inputdatetime{
+  border: 1px solid var(--app-default-text-color) !important;
+  color: var(--app-default-text-color);
+  opacity: 1;
+  height: 40px;
+  border-radius: 5px;
+
+}
+#accountInforForm .oj-inputtext.oj-disabled,
+#accountInforForm .oj-combobox.oj-disabled,
+#accountInforForm .oj-inputdatetime.oj-disabled {
+  border: 1px solid var(--app-default-text-color) !important;
+  background-color: #e5e9ea;
+  color: black;
+  opacity: 1;
+  height: 40px;
+  border-radius: 5px;
+
+}
+
+#accountInforForm .oj-combobox.oj-disabled input {
+  background-color: #e5e9ea;
+  color: black !important;
+  opacity: 1;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+
+}
+
+#accountEditOptionContainer .saveAndCancel{
+  box-shadow: 10px 10px 8px 10px #888888;
+  border:1px solid var(--app-border-color);background: var(--app-white-color);
+}
+
+#accountEditOptionContainer .saveButton{padding: 6px 45px;
+  background: var(--app-theme-color);
+  color: var(--app-white-color);
+  border-radius: 6px;}
+
+  #accountEditOptionContainer .cancelBtn{border-right:1px solid var(--app-border-color);}
+  #accountEditOptionContainer .editButton{background: var(--app-theme-color);
+    color: var(--app-white-color);
+    padding: 8px 17px;
+    border-radius: 7px;}
+
+    .jti-accountInformation-module .oj-text-field .oj-text-field-container{
+      border-color: transparent;
+    }
+    .jti-accountInformation-module .oj-combobox.oj-disabled .oj-combobox-divider {
+      border-color: transparent;
+  }

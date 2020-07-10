@@ -1,0 +1,36 @@
+{
+  "name": "jti-loader",
+  "version": "1.0.0",
+  "jetVersion": "^8.1.0",
+  "displayName": "A user friendly, translatable name of the component.",
+  "description": "A translatable high-level description for the component.",
+  "properties": {
+
+  },
+  "methods": {
+    "start": {
+      "description": "Method for increasing the loader count to showing the loader when the count is greater than zero.",
+      "internalName" : "start",
+      "params" : [],
+      "return" : "void"
+    },
+    "stop": {
+      "description": "Method for decreasing the loader count and hide the loader when the count is zero.",
+      "internalName" : "stop",
+      "params" : [],
+      "return" : "void"
+    },
+    "reset": {
+      "description": "Method for reset the loader count to 0",
+      "internalName" : "reset",
+      "params" : [],
+      "return" : "void"
+    }
+  }, 
+  "events": {
+
+  }, 
+  "slots": {
+
+  }
+}

@@ -1,0 +1,477 @@
+.jti-visit-detail-module .account-container {
+  margin-left: 10%;
+}
+
+.jti-visit-detail-module.oj-hybrid-applayout-page {
+  background-color: var(--app-light-bg-color)!important;
+  box-shadow: none;
+}
+
+.jti-visit-detail-module .badge {
+  border: none;
+  border-radius: 15px;
+  font-size: 11px;
+  color: var(--app-white-color);
+  background-color: #8ba6b0;
+  padding: 2px 14px;
+  position: initial;
+  transform: none;
+}
+
+.jti-visit-detail-module .oj-applayout-content{
+  flex-flow: column;
+}
+
+.jti-visit-detail-module .visit-switcher-module{
+  flex-grow: 1;
+}
+
+.jti-visit-detail-module .pending {
+  opacity: 0.43;
+  background-color: #023A4D;
+}
+
+.jti-visit-detail-module .inprogress {
+  background-color: var(--app-theme-color);
+}
+
+.jti-visit-detail-module .completed {
+  background-color: var(--app-orange-color);
+}
+
+.jti-visit-detail-module .oj-button.oj-disabled.oj-button-outlined-chrome .white-text {
+  color: var(--app-border-color);
+}
+
+.jti-visit-detail-module .oj-button.oj-default.oj-button-outlined-chrome {
+  color: var(--app-white-color) !important;
+}
+
+.jti-visit-detail-module .account-container {
+  margin-left: 10%;
+}
+
+.jti-visit-detail-module .oj-applayout-fixed-top {
+  box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.2), 0 0 16px 0 rgba(0, 0, 0, 0.19);
+  background-color: var(--app-white-color);
+  border-radius: 20px;
+  /* padding-left: 10px; */
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.jti-visit-detail-module .header-container {
+  background-color: var(--app-white-color);
+}
+
+.jti-visit-detail-module .checkin.oj-button.oj-selected.oj-button-full-chrome button,
+.jti-visit-detail-module .checkin.oj-button.oj-default.oj-button-full-chrome button,
+.jti-visit-detail-module .checkin.oj-button.oj-hover.oj-button-full-chrome button,
+.jti-visit-detail-module .checkin.oj-button.oj-focus.oj-button-full-chrome button{
+  background-color: var(--app-theme-color) !important;
+  border-color: var(--app-theme-color) !important;
+  color: var(--app-white-color) !important;
+  font-size: 16px;
+  /* height: 40px; */
+} 
+
+.jti-visit-detail-module .checkout.oj-button.oj-selected.oj-button-full-chrome button,
+.jti-visit-detail-module .checkout.oj-button.oj-default.oj-button-full-chrome button,
+.jti-visit-detail-module .checkout.oj-button.oj-active.oj-button-full-chrome button,
+.jti-visit-detail-module .checkout.oj-button.oj-hover.oj-button-full-chrome button,
+.jti-visit-detail-module .checkout.oj-button.oj-focus.oj-button-full-chrome button{
+  background-color: #EAAA00 !important;
+  border-color: #EAAA00 !important;
+  box-shadow: none;
+  font-size: 16px;
+} 
+
+.jti-visit-detail-module .complete.oj-button.oj-selected.oj-button-full-chrome button,
+.jti-visit-detail-module .complete.oj-button.oj-default.oj-button-full-chrome button,
+.jti-visit-detail-module .complete.oj-button.oj-active.oj-button-full-chrome button,
+.jti-visit-detail-module .complete.oj-button.oj-hover.oj-button-full-chrome button,
+.jti-visit-detail-module .complete.oj-button.oj-focus.oj-button-full-chrome button{
+  background-color: #B3BFC2 !important;
+  border-color: #B3BFC2 !important;
+  box-shadow: none;
+  font-size: 16px;
+  opacity: 0.6;
+} 
+
+.jti-visit-detail-module .complete.oj-button {
+  pointer-events: none;
+}
+
+.jti-visit-detail-module .oj-disabled .fas.fa-sign-in-alt {
+  color: var(--app-white-color);
+  opacity: 0.6;
+}
+
+.jti-visit-detail-module oj-button.more-info button {
+  height: 40px;
+  padding: 0px 8px;
+  color: var(--app-default-text-color) !important;
+}
+
+.jti-visit-detail-module .oj-button.oj-default.oj-button-half-chrome i.oj-button-icon {
+  color: var(--app-white-color) !important;
+}
+
+.jti-visit-detail-module .oj-button.oj-default.oj-button-outlined-chrome .oj-button-button,
+.jti-visit-detail-module .oj-button.oj-active.oj-button-outlined-chrome .oj-button-button,
+.jti-visit-detail-module .oj-button.oj-focus.oj-button-outlined-chrome .oj-button-button{
+  padding: 0%!important;
+  font-size: smaller !important;
+}
+
+.jti-visit-detail-module .oj-applayout-content,
+.jti-visit-detail-module .oj-panel {
+  background-color: var(--app-light-bg-color);
+}
+
+.generic-switcher-container ul#jti-switcher-header li.jti-switcher-ele.oj-selected,
+.generic-switcher-container ul#jti-switcher-header li.jti-switcher-ele {
+  background-color: transparent;
+}
+
+.generic-switcher-container ul#jti-switcher-header li.disable-item {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.generic-switcher-container ul#jti-switcher-header li.jti-switcher-ele.oj-selected {
+  border: none!important;
+}
+
+.generic-switcher-container ul#jti-switcher-header li.jti-switcher-ele.oj-selected .curved-border {
+  border: solid 3px var(--app-theme-color);
+}
+
+.curved-border {
+  border: solid 3px transparent;
+  width: 100%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.jti-visit-detail-module .oj-tabbar-horizontal .oj-tabbar-item-label {
+  font-size: 18px;
+  color: var(--app-default-text-color) !important;
+}
+
+/* dialogue */
+#jtiCheckoutReasonDialog .oj-dialog-body {
+  background-color: var(--app-light-bg-color);
+}
+
+#jtiConfirmationDialog  .oj-dialog-body,
+#jtiCheckoutReasonDialog .sub-heading{
+  font-size: 14px;
+  opacity: 0.8;
+  padding: 0 10px;
+  color: var(--app-default-text-color);
+}
+
+#jtiConfirmationDialog .close-btn .oj-button-text ,#jtiAdhocConfirmationDialog .close-btn .oj-button-text{
+  color: var(--app-black-color);
+}
+
+#jtiConfirmationDialog .confirm-btn .oj-button-text ,#jtiAdhocConfirmationDialog .confirm-btn .oj-button-text{
+  color: var(--app-theme-color);
+}
+
+#jtiConfirmationDialog .oj-dialog-header,#jtiAdhocConfirmationDialog .oj-dialog-header {
+  padding-top: 1rem;
+}
+
+#jtiConfirmationDialog .oj-fwk-icon.oj-fwk-icon-cross,#jtiAdhocConfirmationDialog .oj-fwk-icon.oj-fwk-icon-cross{
+  display: none;
+}
+#jtiConfirmationDialog  .oj-dialog-body
+{
+  font-size: 16px;
+  opacity: 0.8;
+  padding: 0 10px;
+  font-weight: bold;
+  color: var(--app-default-text-color);
+}
+
+#jtiAdhocConfirmationDialog .confirm-btn .oj-button-text{
+  color: var(--app-theme-color);
+  font-size:14px;
+  font-weight: normal;
+}
+#jtiAdhocConfirmationDialog .close-btn .oj-button-text{
+  color: var(--app-default-text-color);
+  font-size:14px;
+  font-weight: normal;
+}
+
+#jtiTasklistContextMenuDialog_layer .oj-dialog-header {
+  height: 0;
+  padding: 25px 10px 0 0;
+}
+
+#jtiTasklistContextMenuDialog_layer oj-dialog {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#jtiTasklistContextMenuDialog_layer .oj-dialog-header-close-wrapper {
+  margin-top: -15px;
+}
+
+#jtiTasklistContextMenuDialog_layer .oj-navigationlist-item-label {
+  flex: initial;
+}
+
+#jtiTasklistContextMenuDialog_layer li {
+  border-top: solid 1px var(--app-border-color);
+  padding: 7px 12px;
+}
+
+#jtiTasklistContextMenuDialog_layer ul {
+  margin-bottom: 35px;
+}
+
+#jtiTasklistContextMenuDialog_layer li:last-child {
+  border-bottom: solid 1px var(--app-border-color);
+}
+
+#jtiTasklistContextMenuDialog_layer li a {
+  flex-direction: row-reverse;
+  padding-right: 0 !important;
+}
+
+html:not([dir="rtl"]) #jtiTasklistContextMenuDialog_layer .oj-dialog-header-close-wrapper {
+  margin-right: 0.125rem;
+}
+
+#jtiTasklistContextMenuDialog_layer .oj-navigationlist-item-icon,
+#jtiTasklistContextMenuDialog_layer .oj-navigationlist-item-label,
+#jtiTasklistContextMenuDialog_layer .oj-button.oj-default.oj-button-half-chrome .oj-button-button {
+  color: var(--app-default-text-color);
+}
+
+/* end dialogue */
+
+/* film strip */
+.jti-visit-detail-module .oj-filmstrip-item-container {
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 7px;
+  padding: 13px 0;
+  border: 1px solid #e0e1e1;
+  border-radius: 12px;
+}
+
+.jti-visit-detail-module .oj-filmstrip-item-container:last-child {
+  margin-right: 0;
+}
+
+.jti-visit-detail-module .oj-filmstrip-item-container i {
+  color: var(--app-theme-color);
+  font-size: 20px;
+}
+
+.jti-visit-detail-module .visit-details-filmstrip {
+  border: none;
+  padding: 18px 18px 8px 12px
+}
+
+/* end film strip */
+
+.jti-visit-detail-module #visitDetailsBtn {
+  font-size: 12px;
+}
+
+#visitActivites-tab-panel {
+  overflow-y: scroll;
+}
+
+#jtiTasklistContextMenuDialog .oj-button{
+  margin-left:auto;
+}
+
+.jti-visit-detail-module .oj-hybrid-applayout-header {
+  box-shadow: none !important;
+}
+
+/* change reason promt */
+
+ #jtiCheckoutReasonDialog .task-icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  display: list-item;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  color: transparent;
+}
+
+#jtiCheckoutReasonDialog .inventory-audit {
+  background-image: url(../images/clipboard-list.svg);
+}
+
+#jtiCheckoutReasonDialog .survey {
+  background-image: url(../images/poll-h.svg);
+}
+
+ #jtiCheckoutReasonDialog {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  cursor: pointer;
+}
+
+#jtiCheckoutReasonDialog .checkout-reason-container {
+  position: absolute;
+  bottom: 0;
+  background-color: var(--app-white-color);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  width: 100%;
+}
+
+#jtiCheckoutReasonDialog .checkout-reason-container .oj-combobox-choice {
+  border: 1px solid var(--app-default-text-color) !important;
+}
+
+#jtiCheckoutReasonDialog .checkout-reason-container input {
+  padding-left: 10px !important;
+  font-size: 14px !important;
+  color: var(--app-default-text-color) !important;
+}
+
+#jtiCheckoutReasonDialog .checkout-reason-container .oj-text-field .oj-text-field-container {
+  height: 2.6rem;
+}
+
+#jtiCheckoutReasonDialog .reason-confirm.oj-button.oj-selected.oj-button-full-chrome button,
+#jtiCheckoutReasonDialog .reason-confirm.oj-button.oj-default.oj-button-full-chrome button,
+#jtiCheckoutReasonDialog .reason-confirm.oj-button.oj-hover.oj-button-full-chrome button,
+#jtiCheckoutReasonDialog .reason-confirm.oj-button.oj-focus.oj-button-full-chrome button{
+  background-color: var(--app-theme-color) !important;
+  border-color: var(--app-theme-color) !important;
+  color: var(--app-white-color) !important;
+  font-size: 16px;
+  height: 40px;
+}
+
+#jtiCheckoutReasonDialog .reason-cancel.oj-button.oj-button-half-chrome button .oj-button-text {
+  color: var(--app-default-text-color) !important;
+}
+
+#jtiCheckoutReasonDialog .reason-confirm.oj-button.oj-selected.oj-button-half-chrome button,
+#jtiCheckoutReasonDialog .reason-confirm.oj-button.oj-default.oj-button-half-chrome button,
+#jtiCheckoutReasonDialog .reason-confirm.oj-button.oj-hover.oj-button-half-chrome button,
+#jtiCheckoutReasonDialog .reason-confirm.oj-button.oj-focus.oj-button-half-chrome button{
+  font-size: 16px;
+  height: 40px;
+}
+
+.jtiAdhocDia#jtiAdhocTaskDialog,
+.jtiTasklistContextMenuDialog#jtiTasklistContextMenuDialog{
+  display: none;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  bottom: 0 !important;
+  right: auto;
+  position: fixed;
+  top: auto !important;
+}
+
+.jtiAdhocDia .oj-dialog-header {
+border-bottom: 1px solid var(--app-border-color) !important;
+}
+
+.jtiTasklistContextMenuDialog #navlistcontainer .oj-navigationlist-item.oj-selected {
+  border-color:none !important; 
+ /* border-bottom: none !important; */
+ background-color: var(--app-white-color);
+}
+
+#jtiTasklistContextMenuDialog .oj-navigationlist-item.oj-selected {
+  border-left: none;
+}
+#surveyTaskDialog {
+  border-radius: 20px;
+}
+#surveyTaskDialog .oj-dialog-header {
+font-size: 18px;
+border-bottom: 1px solid var(--locked-card-color);
+min-height: auto !important;
+}
+#surveyTaskDialog oj-radioset .oj-choice-item {
+  border: none;
+  outline: none;
+}
+#surveyTaskDialog .close-btn .oj-button-text {
+  color: var(--app-black-color);
+  width: 100%;
+}
+#surveyTaskDialog .confirm-btn .oj-button-text {
+  color: var(--app-theme-color);
+  width: 100%;
+}
+#surveyTaskDialog .oj-dialog-footer {
+  justify-content: center;
+  border-top: 1px solid var(--locked-card-color);
+}
+
+#surveyTaskDialog .oj-dialog-footer oj-button {
+  width: 100%;
+}
+
+#surveyTaskDialog .oj-button-button {
+  background-color: #fff;
+  border: none;
+}
+#surveyTaskDialog .confirm-btn {
+  border-left: 1px solid var(--locked-card-color);
+}
+
+.poly-servey {
+  position: fixed;
+  top: unset !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  padding: 10px;
+}
+
+#surveyTaskDialog .oj-dialog-content{
+  max-height: 250px;
+}
+
+#surveyTaskDialog .oj-dialog-body {
+  padding: 0px !important;
+}
+
+.checkin-dialog {
+  border-radius: 20px;
+}
+
+.checkin-dialog .oj-dialog-footer {
+  border-top: 1px solid #e5e6e6;
+  justify-content: center;
+}
+
+.checkin-dialog .oj-dialog-footer oj-button {
+  width: 100%;
+}
+
+.checkin-dialog .oj-dialog-footer .confirm-btn {
+  border-left: 1px solid var(--locked-card-color);
+}
+

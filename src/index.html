@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--
+ Copyright (c) 2014, 2020, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+ -->
+
+<!-- ************************ IMPORTANT INFORMATION ************************************
+  This web navigation drawer template is provided as an example of how to configure
+  a JET web application with a navigation drawer as a single page application
+  using ojRouter and oj-module.  It contains the Oracle JET framework and a default
+  requireJS configuration file to show how JET can be setup in a common application.
+  This project template can be used in conjunction with demo code from the JET
+  website to test JET component behavior and interactions.
+
+  Any CSS styling with the prefix "demo-" is for demonstration only and is not
+  provided as part of the JET framework.
+
+  Please see the demos under Cookbook/Patterns/App Shell: Web and the CSS documentation
+  under Support/API Docs/Non-Component Styling on the JET website for more information on how to use 
+  the best practice patterns shown in this template.
+
+  Aria Landmark role attributes are added to the different sections of the application
+  for accessibility compliance. If you change the type of content for a specific
+  section from what is defined, you should also change the role value for that
+  section to represent the appropriate content type.
+  ***************************** IMPORTANT INFORMATION ************************************ -->
+<html lang="en-us">
+  <head>
+    <title>Oracle JET Starter Template - Web Nav Drawer</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1">
+    <link rel="icon" href="css/images/favicon.ico" type="image/x-icon" />
+
+    <!-- This is the main css file for the default Alta theme -->
+    <!-- injector:theme -->
+    <link rel="stylesheet" href="css/libs/oj/v8.3.0/alta/oj-alta-min.css" type="text/css"/>
+    <!-- endinjector -->
+    
+    <!-- This contains icon fonts used by the starter template -->
+    <link rel="stylesheet" href="css/demo-alta-site-min.css" type="text/css"/>
+
+    <!-- This is where you would add any app specific styling -->
+    <link rel="stylesheet" href="css/app.css" type="text/css"/>
+    <link rel="stylesheet" href="css/iziToast.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/fontawesome/css/all.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/jti/jti-dashboard.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-accounts.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-account360.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-login.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-app.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-footer.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-header.css" type="text/css"/>
+    <link rel="stylesheet" href="css/iziToast.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-route.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-accountDetails.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-visits.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-visitDetails.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-notes.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-addressList.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-addressAdd.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-addressAdd.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-attachments.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-accountInformation.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-sidebar.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-inventoryAudit.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-visitHistory.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-inventoryFilter.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-contact.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-surveyList.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-surveyQuestions.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jti/jti-survey-questionList.css" type="text/css"/>
+
+  </head>
+  <body class="oj-web-applayout-body">
+    <!-- Template for rendering navigation items shared between nav bar and nav list -->
+    <script type="text/html" id="navTemplate">
+      <li><a href="#">
+        <span :class="[[$data['iconClass']]]"></span>
+        <oj-bind-text value="[[$data['name']]]"></oj-bind-text>
+      </a></li>
+    </script>
+
+    <div id="globalBody" class="oj-offcanvas-outer-wrapper oj-offcanvas-page">
+      <jti-loader></jti-loader>
+
+      <div id="announce" tabindex="-1" class="sendOffScreen" :aria-live="[[manner]]" aria-atomic="true">
+          <p id="ariaLiveMessage"><oj-bind-text value="[[message]]"></oj-bind-text></p>
+      </div>
+      
+      <!--
+         ** Oracle JET V8.3.0 web application navigation drawer pattern.
+         ** Please see the demos under Cookbook/Patterns/App Shell: Web
+         ** and the CSS documentation under Support/API Docs/Non-Component Styling
+         ** on the JET website for more information on how to use this pattern. 
+         ** The off-canvas section is used when the browser is resized to a smaller media
+         ** query size for a phone format and hidden until a user clicks on
+         ** the header hamburger icon.
+      -->
+      <!-- <div id="navDrawer" role="navigation" class="oj-contrast-marker oj-web-applayout-offcanvas oj-offcanvas-start">
+        <oj-navigation-list id="navDrawerList" data="[[navDataProvider]]"
+                            edge="start"
+                            item.renderer="[[KnockoutTemplateUtils.getRenderer('navTemplate', true)]]"
+                            on-click="[[toggleDrawer]]"
+                            selection="{{router.stateId}}">
+        </oj-navigation-list>
+      </div> -->
+      <div >
+        <!--
+           ** Oracle JET V8.3.0 web application header pattern.
+           ** Please see the demos under Cookbook/Patterns/App Shell: Web
+           ** and the CSS documentation under Support/API Docs/Non-Component Styling
+           ** on the JET website for more information on how to use this pattern.
+        -->
+        <oj-module id="pageContent"  role="main" class="oj-web-applayout-max-width oj-web-applayout-content" config="[[moduleConfig]]">
+        </oj-module>
+        <!-- <footer class="oj-web-applayout-footer" role="contentinfo">
+          <div class="oj-web-applayout-footer-item oj-web-applayout-max-width">
+            <ul>
+              <oj-bind-for-each data="[[footerLinks]]">
+                <template>
+                  <li><a :id="[[$current.data.linkId]]" :href="[[$current.data.linkTarget]]"><oj-bind-text value="[[$current.data.name]]"></oj-bind-text></a></li>
+                </template>
+              </oj-bind-for-each>
+            </ul>
+          </div>
+          <div class="oj-web-applayout-footer-item oj-web-applayout-max-width oj-text-secondary-color oj-text-sm">
+            Copyright © 2014, 2020 Oracle and/or its affiliates All rights reserved.
+          </div>
+        </footer> -->
+      </div>
+
+      <div class="oj-offcanvas-outer-wrapper">
+        <div id="connectionDrawer" class="oj-applayout-fixed-bottom oj-offcanvas-bottom">
+           <div class="oj-flex-bar oj-sm-align-items-center" style="height: 48px;">
+               <div class="oj-flex-bar-start">
+                <img src="css/images/offline.png" alt="offline" height="24" width="24" style="margin: auto;">
+               </div>
+               <div class="oj-flex-bar-middle oj-sm-padding-2x-horizontal">
+                <span>network not available</span>
+               </div>
+
+               <div class="oj-flex-bar-end">
+                 <oj-button chroming="half"
+                            display="icons"
+                            class="oj-fwk-icon oj-fwk-icon-cross  oj-sm-align-items-center"></oj-button>
+               </div>
+
+           </div>
+        </div>
+    </div>
+    </div>
+
+    
+    <script type="text/javascript" src="js/libs/require/require.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </body>
+
+</html>

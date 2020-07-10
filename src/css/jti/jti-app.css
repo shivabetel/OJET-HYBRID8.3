@@ -1,0 +1,58 @@
+.logout-option-a {
+    padding-left: 0.625rem;
+    padding-bottom: 1rem;
+}
+.logout-option-icon {
+    margin-right: 0.625rem;
+}
+
+
+.oj-dialog-footer{
+    padding-top: 0 !important;
+}
+.oj-dialog-footer .oj-button-full-chrome{
+    /*    background: black !important;*/
+    color: white !important;
+}
+
+#connectionDrawer{
+    background: aquamarine;
+} 
+#offlinePendingDrawer{
+    background: aquamarine;
+    height: 6rem;
+}
+.offline-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.offline-container img{
+    width:20%;
+    height:auto;
+}
+.addTranslate{
+    transform: translate3d(0, -2.1rem, 0) !important;
+}
+.noTranslate{
+    transform: translate3d(0, 0, 0) !important;
+}
+
+#offlinePendingDrawer .oj-flex-bar-middle{
+    line-height: 1.5rem !important;
+    padding-top: 2px;
+}
+
+.container {
+    margin: 20px 5px 5px 5px;
+}
+
+.oj-applayout-fixed-top{
+    background-color: var(--app-white-color);
+}
+
+.font-size-small{
+    font-size: small;
+}

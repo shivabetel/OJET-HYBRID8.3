@@ -1,0 +1,55 @@
+<!--
+ Copyright (c) 2014, 2019, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+ -->
+ <div id="loginContainer" class="oj-hybrid-applayout-page login">
+
+    <div class="oj-applayout-fixed-top">
+    </div>
+    <!-- This is where your main page content will be loaded -->
+
+    <div class="oj-applayout-content oj-complete">
+        <div role="main" class="oj-hybrid-applayout-content oj-flex">
+            <div class="oj-flex-item oj-sm-12 oj-md-7" style="background-color: white;">
+                <div class="oj-hybrid oj-flex oj-helper-justify-content-center">
+                    <div class="oj-flex-item oj-sm-9">
+                        <div id="frmLoginContainer" class="jti-form-login-container">
+                            <oj-form-layout id="myform" label-edge="top" max-columns="1" direction="column"
+                                label-wrapping="wrap" class="oj-form-control-full-width floater">
+
+                                <img alt="profile image" src="css/images/jti-vector-logo.png" width="36">
+                                <oj-input-text id="inputUsername" placeholder="[[lngStrings.username]]"
+                                    value="{{obsUsername}}"></oj-input-text>
+                                <oj-input-password id="inputPassword" placeholder="[[lngStrings.password]]"
+                                    value="{{obsPassword}}"></oj-input-password>
+                                <oj-button chroming="outlined" id='btnLogin'
+                                    disabled='false' class="" on-oj-action="[[eventLoginBtnClicked]]">
+                                    <oj-bind-text value="[[lngStrings.login]]"></oj-bind-text>
+                                    <i class="fas fa-sign-in-alt"></i>
+                                </oj-button>
+                            </oj-form-layout>
+                        </div>
+                    </div>
+                    <div class="app-version oj-sm-12"> 
+                        <div class='oj-sm-12'><oj-bind-text value="[[appName]]"></oj-bind-text></div>
+                        <div class='oj-sm-12'><oj-bind-text value="[[versionNumber]]"></oj-bind-text></div>
+                        <!--  <oj-bind-text value="[[]]"></oj-bind-text> -->
+                     </div>
+                </div>
+                
+            </div>
+
+            <div class="oj-flex-item oj-sm-only-hide oj-md-5 quote oj-flex oj-sm-align-items-center">
+                <div class="floater oj-flex oj-helper-justify-content-center" style="flex:1">
+                    Keep it simple <br>
+                    Be accountable<br>
+                    Make it happen
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
